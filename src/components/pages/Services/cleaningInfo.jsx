@@ -1,9 +1,10 @@
 import React from "react";
 import "./cleaningInfo.css"
 
-const ServiceInfo = () => {
+const CleaningInfo = () => {
     return(
-        <section class="tottori">
+        <section class="wrapper">
+
         <div class="wrapper-full">
             <div class="tottori__all">
     
@@ -24,7 +25,7 @@ const ServiceInfo = () => {
     
                             <div><a href="#" class="card-link">VIEW PREFECTURE</a></div>
                     </div>
-                </div> 
+                </div>
     
                 <div class="tottori__cards">
     
@@ -71,4 +72,4 @@ const ServiceInfo = () => {
     )
 }
 
-export default ServiceInfo;
+export default CleaningInfo;
