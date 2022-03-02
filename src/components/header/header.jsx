@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import './header.css'
-import "./button.css"
-import React from "react";
+// import "./button.css"
+// import React from "react";
 import { Link, useHistory } from "react-router-dom";
 // import useAuth from "../../hooks/useAuth";
 
@@ -50,13 +50,7 @@ const Header = () => {
   };
 
 
-//   const auth = useAuth();
-//   const history = useHistory();
 
-//   const onLogOut = () => {
-//     auth.logOut();
-//     history.push("/login");
-//   };
 
   return (
     <>
