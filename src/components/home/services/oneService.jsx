@@ -1,50 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
-import {TopPlaceloading} from "../../index"
+// import { useSelector } from "react-redux";
+// import {TopPlaceloading} from "../../index"
+import './services.css'
 
-const Place = () => {      
-  
-  const tour = useSelector(({topPlaces}) => topPlaces.topPlaceItems);
-  const isLoaded = useSelector(({topPlaces}) => topPlaces.isLoaded);
-
-  const renderItems = isLoaded ? tour.map((tour) => {
-    const { id, name, imageUrl, info, shortDescription,h3} = tour;
+const OneService = ({services}) => {      
 
     return (  
-        
-      <div  key={id}> 
-      <Link to={`/tour/${id}`} >  
+       
+      <div  key={services.id}> 
+      <Link to={`/tour/${services.id}`} >  
       <div className="top__card">
-          {/* <div className="top__cardPic">
-            <img
-              src={imageUrl}
-              alt="123"
-              className="top__cardThumb"
-            />
-            <div className="top__cardStats">
-              <h3 className="top__cardTitle">{name}</h3>
-          
-            </div>
-          </div> */}
-          <h3>{h3}</h3>
+          <h3>{services.title}</h3>
           <p className="top__cardDesc">
-           {shortDescription}
+           {services.text}
           </p>
-          {/* <a href="#" className="top__cardMore">SEE MORE</a> */}
         </div>
         </Link>
+
         </div>
          
-  );
+  )
 
-  }) : Array(9).fill(<TopPlaceloading/>)
+//   }) : Array(9).fill(<TopPlaceloading/>)
 
-return <>{renderItems}</>
+// return <>{renderItems}</>
     
 }
 
-export default Place;
+export default OneService;
 
 
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SocialList from "./socialList";
+import "./style.css"
 
 const Footer = () => {
 

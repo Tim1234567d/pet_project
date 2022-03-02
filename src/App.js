@@ -10,6 +10,7 @@ import {
 } from "react-router-dom"
 import PageServices from './components/pages/pageServices';
 import Home from './components/home/home';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/services' element = { <PageServices />} /> 
     </Routes>
+    <Footer />
 
 
     </div>

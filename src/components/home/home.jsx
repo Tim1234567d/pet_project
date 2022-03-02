@@ -5,9 +5,13 @@ import React, { useEffect} from "react";
 // import GetInTouch from "./getInTouch/getInTouch";
 // import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
+import GetInTouch from "./getInTouch/getInTouch";
 // import Info from "./info/info";
 // import Price from "./price/price";
 import MainImg from "./mainImg/mainImg";
+import Price from "./price/price";
+import Services from "./services/services";
+import ChooseUs from "./whyChooseUs/ChooseUs";
 
 
 
@@ -24,6 +28,10 @@ const Home = () => {
           {/* <Price /> */}
           {/* <GetInTouch/> */}
           <MainImg />
+          <Services />
+          <ChooseUs />
+          <Price />
+          <GetInTouch />
           
         </div>
     );
