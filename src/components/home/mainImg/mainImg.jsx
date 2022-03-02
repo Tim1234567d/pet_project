@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { SliderData } from "./sliderData";
 // import {FaArrowAltCircleRight,FaArrowAltCircleLeft } from 'react-icons/fa'
-// import './slider.css'
+import './mainImg.css'
  
 const MainImg = () => {
 
@@ -17,6 +17,8 @@ const MainImg = () => {
             </p>    
         </div>
         </section>
+
+        <h1>This is home page</h1>
         </div>
     )
 }

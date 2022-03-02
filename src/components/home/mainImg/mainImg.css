@@ -1,0 +1,31 @@
+.wrapper {
+    margin: 0 auto;
+}
+
+
+.intro {
+    min-height: 100vh;
+    background: url(../../../assets/main-img/cleaning.jpg) no-repeat center ;
+    background-size: cover;
+    padding-top: 263px;
+    width: 1120px;
+    margin-bottom: 100px;
+    
+}
+
+.intro__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+
+.intro__subtitle {
+max-width: 546px;
+color: white;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 59px;
+}
