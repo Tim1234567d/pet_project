@@ -71,7 +71,8 @@ const Header = () => {
          
           <li className='nav-item'>
             <Link
-              to='/tours/:toursId'
+              // to='/tours/:toursId'
+              to='/services'
               className='nav-links'
               onClick={closeMobileMenu}>
               Услуги
@@ -84,7 +85,7 @@ const Header = () => {
           </li>
           <li className='nav-item'>
             <Link
-              to='/aboutUs'
+              to='/aboutUsInfo'
               className='nav-links'
               onClick={closeMobileMenu}
             >
