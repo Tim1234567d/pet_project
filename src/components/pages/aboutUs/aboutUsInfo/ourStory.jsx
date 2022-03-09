@@ -1,15 +1,10 @@
-import React from "react";
-// import { useSelector } from "react-redux";
-// import { useDispatch } from "react-redux";
-// import { useEffect } from "react";
-// import {fetchOurStory} from '../../../../redux/actions/ourStory'
+import React from "react"
 import './aboutUs.css'
 
 
 
 const OurStory = () => {  
      return (
-        // <div>Hello from Our Story</div>
         <section class="wrapper">
 
         <div class="wrapper-full">

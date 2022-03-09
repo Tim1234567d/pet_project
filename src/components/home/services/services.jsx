@@ -1,10 +1,5 @@
 import React from "react"
-// import Place from "./place";
-// import axios from "axios";
-// import { fetchTopPlaces } from "../../../redux/actions/topPlaces";
 import { useEffect } from "react";
-// import { useSelector } from "react-redux";
-// import { useDispatch } from "react-redux";
 import OneService from "./oneService";
 import './services.css'
  

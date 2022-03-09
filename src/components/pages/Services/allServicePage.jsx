@@ -1,10 +1,4 @@
-// import { useSelector } from "react-redux";
-// import { useParams } from "react-router";
-import React, { useEffect } from "react";
-// import OneTour from "./onetour";
-// import { useDispatch } from "react-redux";
-// import { fetchTours } from "../../../redux/actions/tours";
-// import cleaningInfo from "./cleaningInfo";
+// import React, { useEffect } from "react";
 import CleaningInfo from "./cleaningInfo";
 import Services from "./services";
 

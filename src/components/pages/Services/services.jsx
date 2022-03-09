@@ -1,14 +1,5 @@
 import React from "react"
-// import Place from "./place";
-// import axios from "axios";
-// import { fetchTopPlaces } from "../../../redux/actions/topPlaces";
-// import { useEffect } from "react";
-// import CleaningInfo from "./cleaningInfo";
-// import { useSelector } from "react-redux";
-// import { useDispatch } from "react-redux";
-// import OneService from "./oneService";
 import ServiceInfo from "./serviceInfo";
-// import './style.css'
 import './services.css'
  
 const Services = () => {

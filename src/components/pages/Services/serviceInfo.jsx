@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useSelector } from "react-redux";
-// import {TopPlaceloading} from "../../index"
-// import './style.css'
 import './services.css'
 
 const ServiceInfo = ({services}) => {      
@@ -22,10 +19,6 @@ const ServiceInfo = ({services}) => {
         </div>
          
   )
-
-//   }) : Array(9).fill(<TopPlaceloading/>)
-
-// return <>{renderItems}</>
     
 }
 

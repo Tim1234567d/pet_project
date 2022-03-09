@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { useSelector } from "react-redux";
-// import {TopPlaceloading} from "../../index"
 import './services.css'
 
 const OneService = ({services}) => {      
@@ -21,10 +19,6 @@ const OneService = ({services}) => {
         </div>
          
   )
-
-//   }) : Array(9).fill(<TopPlaceloading/>)
-
-// return <>{renderItems}</>
     
 }
 

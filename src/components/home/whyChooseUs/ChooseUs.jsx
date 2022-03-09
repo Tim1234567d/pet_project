@@ -1,25 +1,9 @@
 import React, { useEffect } from "react";
-// import { useDispatch } from "react-redux";
-// import axios from "axios";
-// import { useSelector } from "react-redux";
-// import WhyChooseUs from "./whyChooseUs";
-// import {fetchWhyChooseUs } from "../../../redux/actions/whyChooseUs"
-// import { fetchGuestsComments } from "../../../redux/actions/whyChooseUs";
-// import GuestsComments from "./guestsComments";
 import './style.css'
 
-
- 
-
-
 const ChooseUs = () => { 
-
-
   return (
-    <section className="section-info">
- 
-  
-
+    
      <section class="benefits">
         <div class="benefits__wrap">
             <h2 class="benefits__title">Почему выбирают нас</h2>
@@ -33,7 +17,7 @@ const ChooseUs = () => {
                     <p class="benefits__card-des">
                         Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                     </p>
-                    {/* <a href="#" class="benefits__card-more">LEARN MORE</a> */}
+                   
                 </div>
 
 
@@ -45,7 +29,7 @@ const ChooseUs = () => {
                     <p class="benefits__card-des">
                         Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                     </p>
-                    {/* <a href="#" class="benefits__card-more">LEARN MORE</a> */}
+                    
                 </div>
 
 
@@ -57,7 +41,7 @@ const ChooseUs = () => {
                     <p class="benefits__card-des">
                         Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                     </p>
-                    {/* <a href="#" class="benefits__card-more">LEARN MORE</a> */}
+                 
                 </div>
                 <div class="benefits__card">
                     <div class="benefits__card_pic">
@@ -67,7 +51,7 @@ const ChooseUs = () => {
                     <p class="benefits__card-des">
                         Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                     </p>
-                    {/* <a href="#" class="benefits__card-more">LEARN MORE</a> */}
+                  
                 </div>
 
 
@@ -79,7 +63,7 @@ const ChooseUs = () => {
                     <p class="benefits__card-des">
                         Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                     </p>
-                    {/* <a href="#" class="benefits__card-more">LEARN MORE</a> */}
+                    
                 </div>
 
 
@@ -91,15 +75,12 @@ const ChooseUs = () => {
                     <p class="benefits__card-des">
                         Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                     </p>
-                    {/* <a href="#" class="benefits__card-more">LEARN MORE</a> */}
                 </div>
                 
             </div>
         </div>
     </section>
       
-  
-</section>
 )
 
 }

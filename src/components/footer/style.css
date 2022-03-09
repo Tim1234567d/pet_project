@@ -23,12 +23,12 @@
     
     .list-icons li {
     margin-right: 25px;
-    /* &:hover {
+    } 
+
+    .list-icons li:hover{
       transform: scale(1.27);
       transition: all 0.6s;
-    } */
-    
-    } 
+    }
     
     .list-icons li:last-child {
     margin-right: 0;
