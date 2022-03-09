@@ -17,7 +17,7 @@ import ContactUs from './components/pages/contactUs/contactUs';
 // import Services from './components/home/services/services';
 import AllServices from './components/pages/Services/allServicePage';
 import AboutUs from './components/pages/aboutUs/aboutUs'
-
+import ServiceDetail from './components/home/services/serviceDetail';
 function App() {
   return (
     <div className="App">
@@ -29,6 +29,8 @@ function App() {
       <Route path='/services' element = { <AllServices />} /> 
       <Route path='/aboutUs' element= {<AboutUs />}/>
       <Route path='/contactUs' element= {<ContactUs />}/>
+      <Route path="/serviceDetail/:id" element = {<ServiceDetail/> } />
+
     </Routes>
     <Footer />
 

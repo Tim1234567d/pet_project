@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import SocialList from "./socialList";
 import "./style.css"
+// import './footerImg'
+// import ".../"
 
 const Footer = () => {
 
   const [social, setSocial] = useState([
     {"img": "./img/svg/Mask whatsapp.svg"}, 
-    {"img": "./img/svg/Mask telegram.svg"}, 
     {"img": "./img/svg/Mask instagram.svg"}, 
     {"img": "./img/svg/Mask facebook.svg"}, 
+    {"img": "./img/svg/Mask telegram.svg"}, 
     {"img": "./img/svg/Mask tiktok.svg"}, 
+   
   ])
 
 return ( 

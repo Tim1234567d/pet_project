@@ -4,10 +4,10 @@ import './mainImg.css'
 const MainImg = () => {
 
     return (
-        <div className = "wrapper">
+        <div className = "wrapper54">
 
         <section class="intro">
-        <div class="wrapper">
+        <div class="wrapper54354">
             <h1 class="intro__title">ЧИСТОТА И ПОРЯДОК В ВАШЕМ ДОМЕ</h1>
             <p class="intro__subtitle">
             Доверьте уборку профессионалам.<br/>

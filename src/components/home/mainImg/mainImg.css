@@ -1,31 +1,38 @@
 .wrapper {
-    margin: 0 auto;
+    /* max-width: 1300px; */
+    /* margin: 0 auto; */
+
 }
 
 
 .intro {
-    min-height: 100vh;
-    background: url(../../../assets/main-img/cleaning.jpg) no-repeat center ;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    min-height: 1000px;
+    /* background: url(../../../assets/main-img/cleaning.jpg) no-repeat center ; */
+    background: url(https://st2.depositphotos.com/1177973/10397/i/950/depositphotos_103978340-stock-photo-woman-in-gloves-holding-basin.jpg) no-repeat center ;
     background-size: cover;
-    padding-top: 263px;
-    width: 1120px;
+    max-width: 100%;
     margin-bottom: 100px;
     
+    /* justify-content: flex-end; */
 }
 
 .intro__title {
+  
     font-weight: 500;
     font-size: 50px;
     line-height: 60px;
-    color: white;
+    color: black;
     max-width: 619px;
     margin-bottom: 22px;
 }
 
 .intro__subtitle {
 max-width: 546px;
-color: white;
-font-size: 16px;
-line-height: 24px;
-margin-bottom: 59px;
+color: black;
+font-size: 35px;
+line-height: 35px;
+/* margin-bottom: 59px; */
 }

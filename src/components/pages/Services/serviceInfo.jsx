@@ -7,7 +7,7 @@ const ServiceInfo = ({services}) => {
     return (  
        
       <div  key={services.id}> 
-      <Link to={`/tour/${services.id}`} >  
+      <Link to={`/serviceDetail/${services.id}`} >  
       <div className="top__card">
           <h3>{services.title}</h3>
           <p className="top__cardDesc">
