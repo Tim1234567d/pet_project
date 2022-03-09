@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AboutUsInfo from "./aboutUsInfo/aboutUsInfo";
 
-import TeamInfo from "./teamInfo/teamInfo";
+// import TeamInfo from "./teamInfo/teamInfo";
 
 
 const AboutUs = () => {
@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div className="photo-big-3"><img src="https://www.wildernesstravel.com/images/trips/asia/kyrgyzstan/kyrgyzstan-hiking-in-the-celestial-mountains/1-slide-kyrgysztan-yurts-at-tash-raba-pano.jpg" alt=""/>
       </div>
           <AboutUsInfo/>
-          <TeamInfo/>    
+          {/* <TeamInfo/>     */}
       </div>
 
   </section> 

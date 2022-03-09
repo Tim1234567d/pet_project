@@ -1,55 +1,41 @@
 import React from "react";
-// import {fetchOurMission} from "../../../../redux/actions/ourMission"
-// import { useSelector } from "react-redux";
-// import { useDispatch } from "react-redux";
-// import { useEffect } from "react";
+
 
 const OurMission =() => { 
-      
-//     const ourMission = useSelector((state) => state.ourMission.setOurMission)
+    return( 
+        <div>Hello from Our mission</div>
+    //     <section class="wrapper">
 
-//   const dispatch = useDispatch();
+    //     <div class="wrapper-full">
+    //         <div class="tottori__all">
+    
+    //             <div class="tottori__cards">
+    
+    //                 <div class="tottori-text-2">
+    
+    //                     <div class="title-2"><h2 class="title-2-2">Featured Neighborhood: Kyoto’s Arashiyama</h2></div>
+    
+    //                 <div class="subtitle-2">  <p class="subtitle-2-2">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p></div>
+    
+    //                     <div><a href="#" class="card-link">VIEW NEIGHBORHOOD</a></div>
+    //                 </div>
+    //             </div>
+    
+    //             <div class="tottori__cards">
+    
+    //                 <div class="tottori-card-2">
+    //                     <img src="./img/png card/Image tuttori2.jpg" alt="tottori" class="tottori-pic-2"/>
+    //                 </div> 
+    //             </div>
 
-//   useEffect(() => {
-//     dispatch (fetchOurMission());
-//     }, []);
-
-
-    // const renderItems = ourMission.map((ourMission) => {
-    //     const {info, imgUrl, title} = ourMission;
-
-
-        return( 
-        
-    //         <div className="mission_wrap">    
                 
-    //             <div className="tottori__cards">
     
-    //         <div className="tottori-text-2">
-    
-    //             <div className="title-2"><h2 className="title-2-2">{title}</h2></div>
-    
-    //         <div className="subtitle-2">  <p className="subtitle-2-2"> {info} </p></div>
-    
-                
-    //         </div>
+    //         </div> 
+            
     //     </div>
+    // </section>
         
-    //     <div className="tottori__cards">
-    
-    // <div className="tottori-card-21">
-    //     <img src={imgUrl} alt="tottori" className="about-us-pic-2" />
-    // </div> 
-    
-    // </div>  
-    // </div>
-    <div>Our mission</div>
-        
-        )
-    // });
-    
-// return <>{renderItems}</>
-    
+        )    
 }
 
 export default OurMission;

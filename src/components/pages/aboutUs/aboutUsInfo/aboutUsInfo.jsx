@@ -5,10 +5,11 @@ import OurMission from "./ourMission";
 
 const AboutUsInfo = () => { 
     return(
-        <div className="tottori__all"> 
+        <div > 
   
             <OurStory />
-            <OurMission />
+            {/* <OurMission /> */}
+           
     </div> 
 
     )

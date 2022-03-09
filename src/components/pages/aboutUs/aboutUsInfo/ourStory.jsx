@@ -3,57 +3,64 @@ import React from "react";
 // import { useDispatch } from "react-redux";
 // import { useEffect } from "react";
 // import {fetchOurStory} from '../../../../redux/actions/ourStory'
+import './aboutUs.css'
 
 
 
 const OurStory = () => {  
- 
-    // const ourStore = useSelector((state) => state.ourStory.setOurStory)
+     return (
+        // <div>Hello from Our Story</div>
+        <section class="wrapper">
 
-//   const dispatch = useDispatch();
+        <div class="wrapper-full">
+            <div class="tottori__all">
+    
+                <div class="tottori__cards">
+    
+                    <div class="tottor-card-1">
+                        <img src="./img/png card/Image tottori.jpg" alt="tottori" class="tottori-pic-1"/>
+                    </div>   
+                </div>
+    
+                <div class="tottori__cards">
+    
+                    <div class="tottori-text-1">
+    
+                        <div class="title-1"> <h2 class="title-1-1">Prefecture in Focus: Tottori</h2></div>
+    
+                        <div class="subtitle-1"><p class="subtitle-1-1">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p></div>
+    
+                            <div><a href="#" class="card-link">VIEW PREFECTURE</a></div>
+                    </div>
+                </div>
+                
 
-//   useEffect(() => {
-//     dispatch (fetchOurStory());
-//     }, []); 
+                <div class="tottori__cards">
 
-//     const renderItems = ourStore.map((ourStore) => {
-//         const {info, imgUrl, title} = ourStore;
+    <div class="tottori-text-1">
 
-        return (
+        <div class="title-1"> <h2 class="title-1-1">Prefecture in Focus: Tottori</h2></div>
 
-    //         <div className=" mission_wrap">
+        <div class="subtitle-1"><p class="subtitle-1-1">Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, </p></div>
+
+            <div><a href="#" class="card-link">VIEW PREFECTURE</a></div>
+    </div>
+                </div>
+                <div class="tottori__cards">
     
-    // <div className="tottori__cards">
+                   <div class="tottor-card-1">
+        <img src="./img/png card/Image tottori.jpg" alt="tottori" class="tottori-pic-1"/>
+                     </div>   
+                </div>
     
-    // <div className="tottor-card-1">
-    //     <img src={imgUrl} alt="tottori" className="about-us-pic-1" />
-    // </div>   
-    // </div>
-    //         <div className="tottori__cards">
-    
-    //         <div className="tottori-text-1">
-    
-    //             <div className="title-1"> <h2 className="title-1-1">{title}</h2></div>
-    
-    //             <div className="subtitle-1"><p className="subtitle-1-1"> {info}</p></div>
-    
+            </div> 
             
-    //     </div> 
+        </div>
+    </section>
         
-    
-    //     </div>
-    //     </div>
 
-    <div>Our Story</div>
+
         )
 
-    // });
-    
-
-    
-      
-
-// return <>{renderItems}</>
-    
 }
 export default OurStory;

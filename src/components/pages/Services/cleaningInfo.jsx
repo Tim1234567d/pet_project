@@ -51,9 +51,9 @@ const CleaningInfo = () => {
     <div class="tottor-card-1">
         <img src="./img/png card/Image tottori.jpg" alt="tottori" class="tottori-pic-1"/>
     </div>   
-</div>
+                </div>
 
-<div class="tottori__cards">
+                <div class="tottori__cards">
 
     <div class="tottori-text-1">
 
@@ -63,7 +63,7 @@ const CleaningInfo = () => {
 
             <div><a href="#" class="card-link">VIEW PREFECTURE</a></div>
     </div>
-</div>
+                </div>
     
             </div> 
             

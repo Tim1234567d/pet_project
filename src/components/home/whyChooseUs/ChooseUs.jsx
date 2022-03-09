@@ -13,30 +13,12 @@ import './style.css'
 
 
 const ChooseUs = () => { 
- 
-    // const whyChooseUs = useSelector((state) => state.whyChooseUs.setWhyChooseUs);
-    // const guestsComments = useSelector((state) => state.guestsComments.guestsComments)
 
-    // const dispatch = useDispatch();
-    //    console.log(whyChooseUs)
-    //    console.log(guestsComments)
-    
-    //   useEffect(() => {
-    //     dispatch(fetchWhyChooseUs());
-    //     dispatch(fetchGuestsComments())
-    
-    //   }, []);
 
   return (
     <section className="section-info">
  
-  {/* <div className="wrapper">    </div> */}
-    {/* <div className="info-container">
-    <div className="section-info__all">
-    {/* <WhyChooseUs /> */}
-     {/* <GuestsComments /> */}
-     {/* </div>
-    </div> */} 
+  
 
      <section class="benefits">
         <div class="benefits__wrap">

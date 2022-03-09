@@ -1,0 +1,101 @@
+.tottori {
+    margin-bottom: 131px;
+    margin-top: 200px;
+}
+
+.tottori__all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.tottori__cards {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-1 {
+    /* width: 357px;
+    height: 40px; */
+    margin-bottom: 85px;
+}
+
+.title-1-1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+}  
+
+.subtitle-1 {
+    /* width: 519px;
+    height: 72px; */
+    margin-bottom: 58px;
+
+}
+
+.subtitle-1-1 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+
+}
+
+/* .tottori-text-2 {
+    width: 525px;
+    height: 354px;
+    
+} */
+
+.title-2 {
+    /* width: 357px;
+    height: 80px; */
+    margin-bottom: 45px;
+}
+
+.title-2-2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+}
+
+
+.subtitle-2 {
+    /* width: 519px;
+    height: 72px; */
+    margin-bottom: 94px;
+}
+
+.subtitle-2-2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+}
+
+
+
+
+/* .tottori-card-2 {
+    width: 612px;
+    height: 408px;
+    margin-left: 97px;
+} */
+
+.card-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    padding-right: 59px;
+    text-decoration: none;
+    /* background: url(../img/svg/Shape-4.svg) no-repeat 95% center; */
+    transition: .2s;
+}
+
+/* .card-link:hover, .card-link:focus {
+    background: url(../img/svg/Shape-4.svg) no-repeat right center;
+} */
