@@ -43,7 +43,8 @@ margin-bottom: 37px;
 }
 
 .benefits__card_thumb {
-    display: block;
+    width: 150px;
+    height: 150px;
 
 }
 

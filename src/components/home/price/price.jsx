@@ -1,47 +1,28 @@
 import React from "react";
-import './style.css'
+import s from './price.module.css'
+import PriceItem from "./priceItem";
 
 const Price = () => {
+
+    const priceDatat = [
+        {id:0, title:'С окнами', price:'от 2500c' },
+        {id:1, title:'С балконом', price:'от 2500c' },
+        {id:2, title:'С окнами', price:'от 2500c' },
+    ]
     return (
-        <section class="wrapper">
-    <div class="wrapper-full">
-        <h2 class="top__title section-title">
+        <section className="wrapper">
+    <div className={s.wrapperFull}>
+        <h2 className={s.title}>
             Стоимость уборки помещений 
         </h2>
-        <div class="top__cards">
+        <p className={s.subtitle}>Цена зависит от площади помещения</p>
+        <div className= {s.top__cards}>
 
-
-            <div class="top__card">
-
-                <div class="top__card-pic"><img src="./img/png card/top 1.jpg" alt="123" class="top__card-thumb"/>
-                  
-                </div>
-                <p class="top__card-desc">
-                    Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.
-                </p>
-            </div>
-
-
-
-            <div class="top__card">
-                <div class="top__card-pic"><img src="./img/png card/top 2.jpg" alt="123" class="top__card-thumb"/>
-                </div>
-
-                <p class="top__card-desc">
-                    Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.
-                </p>
-            </div>
-
-
-
-            <div class="top__card">
-                <div class="top__card-pic"><img src="./img/png card/top 3.jpg" alt="123" class="top__card-thumb"/>
-                </div>
-
-                <p class="top__card-desc">
-                    Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this.
-                </p>
-            </div>
+        {
+            priceDatat.map((priceDatat) => (
+                <PriceItem priceData={priceDatat} />
+            ))
+        }
 
         </div>
        

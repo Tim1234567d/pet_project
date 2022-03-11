@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import './mainImg.css'
+import  s from'./mainImg.module.css'
  
 const MainImg = () => {
 
     return (
         <div className = "wrapper54">
 
-        <section class="intro">
-        <div class="wrapper54354">
-            <h1 class="intro__title">ЧИСТОТА И ПОРЯДОК В ВАШЕМ ДОМЕ</h1>
-            <p class="intro__subtitle">
+        <section className={s.intro}>
+        <div className={s.wrapper54354}>
+            <h1 className={s.intro__title}>ЧИСТОТА И ПОРЯДОК В ВАШЕМ ДОМЕ</h1>
+            <p className={s.intro__subtitle}>
             Доверьте уборку профессионалам.<br/>
             Мы работаем по всему Бишкеку.
             </p>    

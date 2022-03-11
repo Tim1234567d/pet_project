@@ -27,6 +27,16 @@
     color: black;
     max-width: 619px;
     margin-bottom: 22px;
+    transform: translate(0,120%);
+    opacity: 0;
+    transition: all ease 0.8s 0s;
+}
+
+.intro__title_active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all ease 0.8s 0s;
+
 }
 
 .intro__subtitle {
