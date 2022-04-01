@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import {Services} from './data';
 import { useParams } from "react-router-dom";
 import s from './serviceDetail.module.css'
-import Form from "./form/Form"
 
 const ServiceDetail = () => {
 
@@ -23,12 +22,25 @@ const ServiceDetail = () => {
          {services.text}
             <br />
             <br />
-          {services.text2}
+          {services.p1}
+          <br />
+          <br />
+          {services.p2}
+          <br />
+          <br />
+          {services.p3}
           </p> 
+
+          <br/>
+          <br/>
+ 
+          <h3>{services.subtitle}</h3>
+          <p className={s.text}>-Удалим пыль со стен, потолка с помощью мопа с насадками<br/>-Протрем подоконники, батареи и радиаторы<br/>-Почистим и протрем люстры (кроме хрустальных),торшеры, бра<br/>-Помоем зеркала и стеклянные поверхности<br/>-Удалим пыль с бытовой техники<br/>-Заменим постельное белье (по желанию)<br/>-Удалим пыль с горизонтальных и вертикальных поверхностей мебели<br/>-Удалим пыль с предметов интерьера<br/>-Почистим мягкую мебель пылесосом со специальной насадкой для мягкой мебели<br/>-Протрем кожаную мебель<br/>-Пропылесосим ковры и ковровые покрытия<br/>-Почистим выключатели и розетки<br/>-Протрем межкомнатные двери, наличники, дверные ручки<br/>-Помоем полы , плинтусы</p>
         </div>
 
+
         <div class={s.sidebar}>
-        <Form />
+      
 
         </div>
        

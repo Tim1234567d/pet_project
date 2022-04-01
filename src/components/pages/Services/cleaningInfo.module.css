@@ -1,6 +1,6 @@
 .tottori {
-    margin-bottom: 131px;
-    margin-top: 200px;
+    /* margin-bottom: 131px; */
+    /* margin-top: 200px; */
 }
 
 .tottori__all {
@@ -9,16 +9,18 @@
     grid-gap: 40px;
 }
 
-.tottori__cards {
+/* .tottori__cards {
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column; 
+} */
 
 
-.title-1 {
+
+
+.title_1 {
     /* width: 357px;
     height: 40px; */
-    margin-bottom: 85px;
+    margin-bottom: 20px;
 }
 
 .title-1-1 {
@@ -32,6 +34,7 @@
     /* width: 519px;
     height: 72px; */
     margin-bottom: 58px;
+    width: 100%;
 
 }
 
@@ -99,3 +102,23 @@
 /* .card-link:hover, .card-link:focus {
     background: url(../img/svg/Shape-4.svg) no-repeat right center;
 } */
+
+/* // ***  */
+
+.cleaningImg {
+    max-width: 100%;
+    max-height: 333px;
+}
+
+
+.service_title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.service_title2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+

@@ -12,13 +12,16 @@ const Header = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
   
-  return (
+  return ( 
     <>
     
+    
       <nav className='navbar'>
+      
         <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
           logo
-        </Link>logo
+        </Link>
+
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
@@ -56,12 +59,14 @@ const Header = () => {
           <li className='nav-item'
           
             >
-            <Link
+            {/* <Link
               to='/contactUs'
-              className='nav-links'>
+              className='nav-links' href="https://wa.me/996709922696">
+               
               Связаться с нами 
-            </Link> 
-         
+            </Link>  */}
+
+            <a className='nav-links_contact' href="https://wa.me/996709919582"><i><img src="https://www.svgrepo.com/show/176768/whatsapp-social-media.svg" className="whatsappIcon" alt="" /></i> Связаться с нами </a>
           </li>
           
         </ul>

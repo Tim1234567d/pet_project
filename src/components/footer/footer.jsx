@@ -23,9 +23,9 @@ return (
         <SocialList  social ={social}/>
 
         <div className="footer__cantacts">
-          <div className="contact-tel">+996 500 000 000</div>
-          <div className="contact-address">ул.Ибраимова 115/1</div>
-          <div className="contact-email">tours@gmail.com</div>
+          <div className="contact-tel">+996 709 91 95 82</div>
+          <div className="contact-address">ул.Ak-cholmok 115/1</div>
+          <div className="contact-email">cleaningBishkek@gmail.com</div>
         </div>
       </div>
     </footer>

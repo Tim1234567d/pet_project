@@ -5,8 +5,8 @@ const ContactUs = () => {
     return(
 <section className="section-contact">
       <div className="wrapper">
-        <div   >
-          <img className="photo-big-3"  src="https://franks-travelbox.com/wp-content/uploads/2018/01/kirgistan-im-juli-und-august-werden-am-son-kul-see-in-kirgistan-eigene-gacc88ste-jurten-fucc88r-touristen-mit-erhocc88htem-komfort-errichtet-travel-experts-kyrgyzstan.jpg" alt="contactUs" />
+        <div > 
+          <img className="mainImg"  src="https://hamiltonmoverspackers.co.nz/images/cleaning-services-hamilton.jpg" alt="contactUs" />
         </div>
         <h1 className="contact-title">Contact Us</h1>
         <div className="contact-container">

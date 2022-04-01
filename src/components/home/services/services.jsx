@@ -17,14 +17,15 @@ const Services = [
   {id:'4', title:'Химчистка мягкой мебели', text:'Наша компания использует технику «KARCHER». Время сушки по этой методике может составить от двух до нескольких часов, в зависимости от ковровых волокон .', backImg:'https://static.wixstatic.com/media/e00276_e5eb7a7a2b4d4ef8a034b74ef366258e~mv2_d_6417_2680_s_4_2.jpg/v1/fill/w_613,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e00276_e5eb7a7a2b4d4ef8a034b74ef366258e~mv2_d_6417_2680_s_4_2.jpg'}, 
 
   {id:'5', title:'Мытьё окон', text:'Мытье окон представляет собой самые кропотливые и трудоемкие клининговые работы. Оконные стекла подвержены постоянному загрязнению во все сезоны года', backImg:'https://static.wixstatic.com/media/e00276_d61d4bfa258e4eaebffbf256cb2e228c~mv2_d_7441_2779_s_4_2.jpg/v1/fill/w_615,h_226,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e00276_d61d4bfa258e4eaebffbf256cb2e228c~mv2_d_7441_2779_s_4_2.jpg'}, 
-]
+] 
   
 
 return (
-    <section className="section-tours">
+      <section className="services">
       <div className="wrapper">
-        <h2 className="top__title section-title">НАШИ УСЛУГИ</h2>
-        <div className="top__cards">
+        <h2 className="services_title">НАШИ УСЛУГИ  </h2>
+       
+        <div className="service__cards"> 
 
 
           {Services.map( (services) => 
@@ -33,7 +34,8 @@ return (
           )}
         </div>
       </div>
-    </section> 
+      </section>
+   
     )
 
 }

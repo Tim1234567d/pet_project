@@ -1,17 +1,24 @@
-.section-connect {
-    max-height: 420px;
+ .section-connect {
+    /* max-height: 420px; */
     margin-bottom: 60px;
-  }
+  } 
   
   .bg-image.overlay {
-    position: relative;
+    position: relative;  
   }
   
   .site-section {
     max-height: 420px;
+    background: url(https://insights.workwave.com/wp-content/uploads/2020/05/moping-floor-and-cleaning-railing-picture-id944633842.jpg) no-repeat center;
   }
   
-  
+  .bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+   
   
   .bg-image.overlay:after {
     position: absolute;
@@ -22,10 +29,12 @@
     bottom: 0;
     z-index: 0;
     width: 100%;
-    background: rgba(58, 183, 192, 0.685);
+    /* background: rgba(58, 183, 192, 0.685); */
+    background-color: rgba(0, 0, 0, 0.5);
+
   }
   
-  .bg-image > .container {
+  .bg-image > .container { 
     position: relative;
     z-index: 1;
   }
@@ -33,8 +42,8 @@
   .container {
     width: 100%;
     height: 500px;
-    padding-right: 15 px;
-    padding-left: 15 px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     margin-right: auto;
     margin-left: auto;
   }
@@ -45,7 +54,7 @@
     align-items: center;
   }
   
-  .container__content {
+  .container__content { 
     max-width: 530px;
     height: 200px;
     margin-top: 140px;

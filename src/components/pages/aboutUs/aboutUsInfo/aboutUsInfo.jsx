@@ -1,16 +1,23 @@
 import React from "react";
+import s from './aboutUs.module.css'
 
 import OurStory from "./ourStory";
 import OurMission from "./ourMission";
 
 const AboutUsInfo = () => { 
     return(
-        <div > 
-  
+
+        <section className="wrapper">
+
+        
+            <div class={s.tottori__all}> 
             <OurStory />
-            {/* <OurMission /> */}
-           
-    </div> 
+             {/* <OurMission /> */}    
+       
+            
+        </div>
+    </section>
+       
 
     )
 }

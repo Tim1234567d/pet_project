@@ -6,12 +6,12 @@ import { chooseUsData } from "./data";
 const ChooseUs = () => { 
   return (
     
-     <section class="benefits">
-        <div class="benefits__wrap">
-            <h2 class="benefits__title">Почему выбирают нас</h2>
-            <div class="benefits__cards">
+     <section className="chooseUs">
+        <div className="wrapper">
+            <h2 className="chooseUs__title">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
+            <div className="chooseUs__cards">
 
-                {
+                { 
                     chooseUsData.map((chooseUs) => (
                   <ChooseUsItem  chooseUs = {chooseUs}/>
                       

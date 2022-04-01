@@ -1,6 +1,7 @@
 // import React, { useEffect } from "react";
 import CleaningInfo from "./cleaningInfo";
 import Services from "./services";
+import s from './services.module.css'
 
  
 const AllServices = () => {
@@ -8,11 +9,9 @@ const AllServices = () => {
         <section >
         <div className="wrapper" >
 
-          <div  className="photo-big-3"><img src="https://www.studylab.ru/upload/SimplePage/image/480/c197e4f4d1732f0aace9b4f4a523682c.jpg" alt="11"/></div>
+          <div  ><img className={s.photoBig3} src="https://rescuemytimecleaningservice.com/wp-content/uploads/2019/11/cleaning-person-800x533.jpeg" alt="11"/></div>
 
-          
           <Services />
-        
           <CleaningInfo />
         </div> 
         

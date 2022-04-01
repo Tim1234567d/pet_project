@@ -2,17 +2,15 @@ import React from "react";
 import s from './price.module.css'
 
 const PriceItem = ({priceData}) => {
-    return (
+
+    return ( 
         <div className={s.top__card}>
 
-        {/* <div className="top__card-pic"><img src="./img/png card/top 1.jpg" alt="123" className="top__card-thumb"/>
-          
-        </div> */}
         <h3 className={s.priceDes}>{priceData.title}</h3>
-        <p className={s.price}>
-            
-            {priceData.price}
-        </p>
+        <p className={s.price}>  {priceData.price}</p>
+        <h3>Что входит в уборку?</h3>
+        <p className={s.aboutPrice}>{priceData.text}</p>
+        <button className={s.price_btn}> <a href="https://wa.me/996709919582">Заказать уборку</a> </button>
     </div>
     )
 }

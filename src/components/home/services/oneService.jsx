@@ -8,13 +8,10 @@ const OneService = ({services}) => {
        
       <div  key={services.id}> 
       <Link to={`/serviceDetail/${services.id}`} >  
-      <div className="top__card">
-       <img className="backImg" src={services.backImg} alt="" /> 
-       <div className="ab">
+      <div className="service__card">
+       <img className="service_backImg" src={services.backImg} alt="" /> 
+       <div className="service_title_wrapper">
           <h3 className="servicesTitle">{services.title}</h3>
-          {/* <p className="top__cardDesc">
-           {services.text}
-          </p> */}
         </div>
          
         </div>
